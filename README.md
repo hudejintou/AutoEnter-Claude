@@ -34,7 +34,7 @@ AutoEnter 是一个轻量级 Windows 工具，可以按照你设定的时间间�
 
 ## 快速开始
 
-从 [Releases](https://github.com/HDJT/AutoEnter-Claude/releases) 下载 `AutoEnter.exe`，双击运行。
+从 [Releases](https://github.com/hudejintou/AutoEnter-Claude/releases) 下载 `AutoEnter.exe`，双击运行。
 
 1. 设置回车间隔（默认 10 秒）
 2. 点击 **开始** 或按 `Ctrl+Alt+1`
@@ -53,7 +53,7 @@ AutoEnter 是一个轻量级 Windows 工具，可以按照你设定的时间间�
 ## 从源码构建
 
 ```bash
-git clone https://github.com/HDJT/AutoEnter-Claude.git
+git clone https://github.com/hudejintou/AutoEnter-Claude.git
 cd AutoEnter-Claude
 pip install pyinstaller
 pyinstaller --onefile --windowed --name AutoEnter --icon autoenter_icon.ico auto_enter_gui.py
@@ -82,4 +82,4 @@ A: 可以，但不建议——太快可能让目标程序来不及响应。
 
 ## License
 
-MIT © [HDJT](https://github.com/HDJT)
+MIT © [hudejintou](https://github.com/hudejintou)
